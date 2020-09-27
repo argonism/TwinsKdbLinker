@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,      
+  "name": "Put kdb link to twins subjects", 
+  "description": "Twinsの各科目にkdbのシラバスページへのリンクを貼る拡張機能",
+  "version": "1.0.4",
+  "icons": {
+      "48": "resources/icon48.png"
+  },
+  "content_scripts": [
+      {
+          "matches": ["https://twins.tsukuba.ac.jp/campusweb/campusportal.do?page=main&tabId=rs"],
+          "js": ["putLink.js"]
+      }
+  ]
+}
