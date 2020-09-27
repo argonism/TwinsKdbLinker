@@ -1,0 +1,2 @@
+# TwinsKdbLinker
+twins履修画面から、各科目のシラバスに飛べるchrome拡張機能
