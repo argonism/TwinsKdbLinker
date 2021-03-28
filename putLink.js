@@ -24,7 +24,7 @@ mainFrame.onload = () =>
       }
       
       let year = new Date().getFullYear();
-      let str_kdblink = `https://kdb.tsukuba.ac.jp/syllabi/${year}/${subject_id}/jpn/0/`
+      let str_kdblink = `https://kdb.tsukuba.ac.jp/syllabi/${year}/${subject_id}/jpn/`
       let dom_kdblink = CreateAtagFromLink(str_kdblink);
 
       koma.style.position = "relative";
